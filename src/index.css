@@ -1,0 +1,50 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color:brown;
+}
+
+.all-task {
+  background-color: #fff;
+  margin: 20px;
+  padding: 20px;
+  align-items: baseline;
+  width: 60%;
+  box-shadow: 2px 2px #cecccc;
+}
+
+.introduction {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+form {
+  display: flex;
+  justify-content: space-between;
+}
+
+form > input,
+form > button {
+  border: 1px hidden;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.task-list li {
+  display: flex;
+  gap: 5px;
+  border-bottom: 1px solid rgb(231, 227, 227);
+}
+
+#clear {
+  width: 16rem;
+  margin-top: 10px;
+  margin-bottom: 0;
+  padding: 10px;
+  border: none;
+}

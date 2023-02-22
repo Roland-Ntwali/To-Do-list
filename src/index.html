@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/56d99cc5b2.js" crossorigin="anonymous"></script>
+    <title>to-do-list</title>
+</head>
+<body>
+    <div class="all-task">
+        <div class="introduction">
+            <h2> Today's task</h2>
+            <i class="fas fa-sync-alt"></i>
+        </div>
+        
+
+        <form action="" data-new-list-form > 
+            <input 
+            type="text"
+            class="new-list"
+            data-new-list-input
+            placeholder="add to your list..."
+            aria-label="new list label"/>
+            <button type="submit"><i class="fa fa-share" id="add"></i></button>
+        </form>
+
+        <ul class="task-list" data-lists> 
+
+        </ul>
+        <button type="button" id="clear">Clear all completed</button>
+
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
