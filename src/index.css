@@ -1,50 +1,100 @@
 body {
-  padding: 0;
-  margin: 0;
-  background-color:brown;
-}
-
-.all-task {
-  background-color: #fff;
-  margin: 20px;
-  padding: 20px;
-  align-items: baseline;
-  width: 60%;
-  box-shadow: 2px 2px #cecccc;
-}
-
-.introduction {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  height: 100vh;
 }
 
-form {
-  display: flex;
-  justify-content: space-between;
+.container {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 20px 0 0 0;
+  height: 50vh;
+  width: 500px;
+  position: relative;
+  overflow: auto;
 }
 
-form > input,
-form > button {
-  border: 1px hidden;
-}
-
-.task-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.task-list li {
-  display: flex;
-  gap: 5px;
-  border-bottom: 1px solid rgb(231, 227, 227);
-}
-
-#clear {
-  width: 16rem;
-  margin-top: 10px;
-  margin-bottom: 0;
-  padding: 10px;
+.input {
+  width: 88%;
+  padding: 10px 3%;
   border: none;
+  outline: none;
+  margin: 0 3%;
+  font-style: italic;
+}
+
+.todoHeader {
+  margin-left: 20px;
+  text-align: left;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+.arrow {
+  position: absolute;
+  right: 20px;
+  top: 40px;
+}
+
+.todoContainer ul {
+  list-style-type: none;
+}
+
+.todoContainer li {
+  text-align: left;
+  font-size: 18px;
+  font-family: sans-serif;
+  margin-left: 20px;
+}
+
+.clear-completed {
+  background: none;
+  border: none;
+  font-size: 16px;
+  padding: 12px 0;
+  font-style: italic;
+  color: #2e2d2d;
+}
+
+.align {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.formBtn {
+  background-color: #fff;
+  border: 1px hidden;
+  margin-right: 10px;
+}
+
+.clear {
+  text-align: center;
+  background: #eee8e8;
+  padding: 10px 0;
+}
+
+.checkBox {
+  margin-left: 30px;
+  margin-right: 10px;
+}
+
+.dots {
+  position: absolute;
+  right: 15px;
+  color: #2e2d2d;
+}
+
+.checkBox.strike {
+  text-decoration: underline;
+}
+
+.newInput {
+  font-size: 18px;
+  border: none;
+  outline: none;
+}
+
+.add.done {
+  text-decoration: line-through;
 }
