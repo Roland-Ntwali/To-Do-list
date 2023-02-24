@@ -133,6 +133,7 @@ const clearCompleted = () => {
     todo.id = id + 1;
   });
   saveTodo();
+  location.reload();
 };
 
 export {
