@@ -4,7 +4,7 @@
   "description": "**This is a simple website that displays a list of toDoes and allows you to add new task, adit task and delete a completed task from the list**",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist",
     "start": "webpack serve --open",
     "build": "webpack"
   },
@@ -15,11 +15,11 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "homepage": "https://to-do-list.github.io/To-Do-list",
   "bugs": {
     "url": "https://github.com/Roland-Ntwali/To-Do/issues"
   },
-  "homepage": "https://github.com/Roland-Ntwali/To-Do#readme",
-  "devDependencies": {
+   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "css-loader": "^6.7.3",
     "eslint": "^7.32.0",
@@ -37,6 +37,7 @@
     "webpack-dev-server": "^4.11.1"
   },
   "dependencies": {
+    "gh-pages": "^5.0.0",
     "lodash": "^4.17.21"
   },
   "main": "webpack.config.js"
