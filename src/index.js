@@ -3,7 +3,7 @@ import {
   editTodoList,
   formSubmission,
   populateTasks,
-} from './module/addRemoveTask.js';
+} from './module/interactive.js';
 import './index.css';
 
 const clearCompletedButton = document.querySelector('.clear-completed');
