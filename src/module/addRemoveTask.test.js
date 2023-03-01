@@ -1,4 +1,3 @@
-
 import { addTask, removeTask } from './addRemoveTask.js';
 
 describe('Adding and Removing a function', () => {
@@ -7,7 +6,7 @@ describe('Adding and Removing a function', () => {
   });
 
   test('remove a task task', () => {
-    expect(removeTask).not.toBeDefined;
+    expect(removeTask).not.to('');
   });
   test('remove a task task', () => {
     expect(removeTask.parentElement).not.toBe('');
