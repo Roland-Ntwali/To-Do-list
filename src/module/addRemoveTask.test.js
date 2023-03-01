@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-expressions */
 import { addTask, removeTask } from './addRemoveTask.js';
 
-describe('Ading and Removing a function', () => {
+describe('Adding and Removing a function', () => {
   test('adding to do task', () => {
     expect(addTask).not.toBeNull();
   });
