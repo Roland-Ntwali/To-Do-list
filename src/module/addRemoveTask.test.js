@@ -1,4 +1,4 @@
-/* eslint-disable no-unused-expressions */
+
 import { addTask, removeTask } from './addRemoveTask.js';
 
 describe('Adding and Removing a function', () => {
