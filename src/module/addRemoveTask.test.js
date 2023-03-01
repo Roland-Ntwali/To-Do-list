@@ -6,7 +6,7 @@ describe('Adding and Removing a function', () => {
   });
 
   test('remove a task task', () => {
-    expect(removeTask).not.toBeDefined;
+    expect(removeTask).not.toBe('');
   });
   test('remove a task task', () => {
     expect(removeTask.parentElement).not.toBe('');
