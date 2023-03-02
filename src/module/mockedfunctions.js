@@ -1,4 +1,4 @@
-const { default: mockItems } = require('./mocks/localstorage');
+const { default: mockItems } = require('../mocks/localstorage.js');
 
 module.exports = class MockItemsTest {
   constructor(description, id = 0, compl = false) {
