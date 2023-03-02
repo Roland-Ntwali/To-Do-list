@@ -1,19 +1,75 @@
-# To-Do list
+<a name="To-Do list"></a>
 
-**This is a simple website that displays a list of toDoes and allows you to add new task, adit task and delete a completed task from the list**
+<div align="center">
 
-## Built With
+  <h3><b>To-Do list</b></h3>
+
+</div>
+
+
+# 📗 Table of Contents
+
+- [📗 Table of Contents](#-table-of-contents)
+- [📖 \[To-Do list\] ](#-to-do-list-)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+  - [🚀 Live Demo ](#-live-demo-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Prerequisites](#prerequisites-1)
+    - [Setup](#setup-1)
+    - [Install](#install)
+    - [Usage](#usage)
+    - [Run tests](#run-tests)
+    - [Deployment](#deployment)
+  - [👥 Authors ](#-authors-)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [❓ FAQ (OPTIONAL) ](#-faq-optional-)
+  - [📝 License ](#-license-)
+
+<!-- PROJECT DESCRIPTION -->
+
+# 📖 [To-Do list] <a name="To-Do list"></a>
+
+
+**[To-Do list]** This is a simple website that displays a list of toDoes and allows you to add new task, adit task and delete a completed task from the list.
+
+
+## 🛠 Built With <a name="built-with"></a>
 
 - HTML
 - CSS
 - JavaScript
 - Webpack
+  
+### Tech Stack <a name="tech-stack"></a>
 
-## Live Demo
+For this project design I am using form to create localstorage data and class object array to update the page.
+
+
+### Key Features <a name="key-features"></a>
+
+> **[CRUD to do list ]**
+  - Create Read, Update & Delete To Do List item.
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Demo Link](not yet).
 
-## Getting Started
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
 
 To get a local copy up and running follow these simple example steps.
 
@@ -22,6 +78,7 @@ To get a local copy up and running follow these simple example steps.
 - Code editor (Vs code)
 
 ### Setup
+
 - clone 'https://github.com/Roland-Ntwali/To-Do-list.git '
 - Setup Linters by running following commands in your terminal:
 
@@ -41,7 +98,65 @@ To get a local copy up and running follow these simple example steps.
 
 - set well your webpack
 
-## Authors
+### Prerequisites
+
+In order to run this project you need:
+
+-A code editor, preferably VSCode. Any other code editor is okay.
+
+-Browser
+
+
+### Setup
+
+Clone this repository to your desired folder:
+
+run git clone https://github.com/Roland-Ntwali/To-Do-list.git
+
+or
+
+In the File menu, click Clone Repository.
+
+Click the tab that corresponds to the location of the repository you want to clone. You can also click URL to manually enter the repository location.
+
+Choose the repository you want to clone from the list.
+
+Click Choose... and navigate to a local path where you want to clone the repository.
+
+Click Clone.
+
+
+### Install
+
+Install this project with:
+
+- Download the project from github and run it in your browser.
+
+### Usage
+
+To run the project, execute the following command:
+
+To run the project, navigate to the project directory and use a live Server extension in your VSCode to run the project.
+
+
+### Run tests
+
+To run tests, run the following command:
+
+- npx stylelint "**/*.{css,scss}" for testing css errors
+- npx eslint . for Javascript errors
+
+### Deployment
+
+You can deploy this project using:
+
+The project is not yet deployed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
 
 
 👤 **Ntwali Roland**
@@ -50,23 +165,71 @@ To get a local copy up and running follow these simple example steps.
 - LinkedIn: [Roland Ntwali](https://www.linkedin.com/in/roland-ntwali-11b16617b/)
 
 
-## 🤝 Contributing
+👤 **Walid Kabboussa**
 
-Contributions, issues, and feature requests are welcome!
+- GitHub: [@Hisoka37 ](https://github.com/Hisoka37)
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+
+- [ ] **[More backround images]**
+- [ ] **[Animations and transitions]**
+- [ ] **[More Javascript Functionality]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
 
 Feel free to check the [issues page](https://github.com/Roland-Ntwali/To-Do-list/issues).
 
-## Show your support
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 - Codding partners
 - Morning session team for issue creation 
 - Microverse
 - etc
 
-## 📝 License
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FAQ (optional) -->
+
+## ❓ FAQ (OPTIONAL) <a name="faq"></a>
+
+> Add at least 2 questions new developers would ask when they decide to use your project.
+
+- **[Question_1]**
+
+  - [Answer_1]
+
+- **[Question_2]**
+
+  - [Answer_2]
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>

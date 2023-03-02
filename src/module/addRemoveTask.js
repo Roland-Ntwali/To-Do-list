@@ -137,5 +137,5 @@ const clearCompleted = () => {
 };
 
 export {
-  formSubmission, editTodoList, populateTasks, clearCompleted,
+  formSubmission, editTodoList, populateTasks, clearCompleted, addTask, removeTask,
 };
